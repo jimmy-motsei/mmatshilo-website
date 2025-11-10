@@ -1,0 +1,31 @@
+{
+  "home": {
+    "hero": {
+      "title": "Healing the self. Re-membering the world.",
+      "sub": "Where African wisdom meets psychology and midwifery to birth new ways of being.",
+      "ctas": [
+        "Explore the Academy",
+        "Begin your healing circle",
+        "Read the Book"
+      ]
+    },
+    "pillars": [
+      {
+        "title": "Healing & Circles",
+        "body": "Trauma-aware 1:1 sessions, couples/family circles, and group rituals."
+      },
+      {
+        "title": "Online Academy",
+        "body": "Courses and cohorts rooted in African spiritual principles and practice."
+      },
+      {
+        "title": "Corporate Wellbeing",
+        "body": "Women\u2019s health, cultural competency and She\u2011Elephant leadership."
+      }
+    ]
+  },
+  "book_featured": {
+    "title": "Hearing Visions, Seeing Voices",
+    "sub": "A memoir of activism and spiritual becoming."
+  }
+}

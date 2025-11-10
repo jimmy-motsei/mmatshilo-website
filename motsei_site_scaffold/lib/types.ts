@@ -1,0 +1,11 @@
+export type ID = string;
+export type Program = { id: ID; title: string; summary: string; audience: string[]; outcomes: string[]; format: string; duration?: string; price?: string; facilitatorIds?: ID[]; };
+export type Course = { id: ID; slug: string; title: string; abstract: string; syllabus: {title:string;summary:string;}[]; price?: string; delivery:'cohort'|'self-paced'; certificate?: boolean; language?: string; };
+export type Cohort = { id: ID; courseId: ID; startDate: string; cadence: string; seats?: number; facilitatorIds?: ID[]; };
+export type Lesson = { id: ID; courseId: ID; title: string; type:'video'|'text'|'audio'; content:string; downloads?: {name:string;url:string;}[]; reflectionPrompts?: string[]; estimatedTime?: string; };
+export type Event = { id: ID; title: string; location: string; online?: boolean; start: string; end: string; price?: string; };
+export type Testimonial = { id: ID; quote: string; author: string; role?: string; };
+export type Book = { id: ID; slug: string; title: string; cover?: string; description: string; formats?: string[]; shopifyHandle?: string; featured?: boolean; };
+export type Article = { id: ID; title: string; excerpt: string; body: string; tags: string[]; publishedAt: string; };
+export type Circle = { id: ID; type:'family'|'group'|'couples'; objectives: string[]; bookingLink?: string; };
+export type Facilitator = { id: ID; name: string; bio: string; headshot?: string; specialties?: string[]; };
